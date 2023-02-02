@@ -1,12 +1,11 @@
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pojos.UserRequest;
 import pojos.CreateUserResponse;
 import pojos.UserPojoFull;
+import pojos.UserRequest;
 import utils.RestWrapper;
 import utils.UserGenerator;
 
-import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class RestTest {
